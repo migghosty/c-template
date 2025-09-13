@@ -13,7 +13,7 @@ SRC_DIR = src
 OBJ_DIR = build
 
 # source + object files
-SRCS = main.c $(wildcard $(SRC_DIR)/*.c)
+SRCS = $(wildcard $(SRC_DIR)/*.c)
 OBJS = $(patsubst %.c,$(OBJ_DIR)/%.o,$(notdir $(SRCS)))
 DEPS = $(OBJS:.o=.d)
 

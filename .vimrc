@@ -1,9 +1,6 @@
-" set the root directory for exploring
-"nnoremap <leader>e :Vexplore ~/test<CR>
-
 " compile quickly
 "set makeprg=make\ -C\ ~/test
-nnoremap <F5> :!make<CR>
+nnoremap <F5> :!make all<CR>
 
 " run program
 nnoremap <F4> :!./build/a.out<CR>
