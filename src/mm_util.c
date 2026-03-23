@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <mm_util.h>
 
+/*********************************
+ * FUNCTION: add
+ *
+ * DESCRIPTION:
+ *    add two integers
+ *
+ * INPUT:
+ *    x - first integer
+ *    y - second integer
+ *
+ * RETURN:
+ *    sum of x+y
+ ********************************/
 int add(int x, int y)
 {
    return x+y;
